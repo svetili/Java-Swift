@@ -27,7 +27,6 @@ public class Calculator {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("START");
 		String line = sc.nextLine();
-		;
 		while (!line.equals(END)) {
 			String[] strArr = line.split(" ");
 			double a = Double.parseDouble(strArr[1]);
