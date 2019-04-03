@@ -16,7 +16,7 @@ public class UniqueNumbers {
 		sc.nextLine();
 		
 		// read n numbers
-		System.out.println("Enter n numbers: ");
+		System.out.printf("Enter %d numbers: \n", n);
 		Set<Integer> intUniqueList = new HashSet<Integer>();
 		for(int i = 0; i < n; i++) {
 			intUniqueList.add(sc.nextInt());
