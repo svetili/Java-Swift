@@ -1,4 +1,4 @@
-package sakila;
+package trollgame;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -8,8 +8,8 @@ import oracle.jdbc.driver.OracleDriver;
 
 public class DBConnector {
 	final static String CONNECTION_STRING =  "jdbc:oracle:thin:@127.0.0.1:1521:xe";
-	final static String CONNECTION_USERNAME = "sakila";
-	final static String CONNECTION_PASSWORD = "sakila";
+	final static String CONNECTION_USERNAME = "troll_game";
+	final static String CONNECTION_PASSWORD = "troll_game";
 	
 	protected static Connection setConnection() {
 		Connection conn = null;
